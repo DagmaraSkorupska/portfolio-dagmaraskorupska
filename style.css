@@ -349,7 +349,6 @@ header {
 .container_education {
     min-height: 1000px;
     border-top: 1px #83ADA9 solid;
-/*     background-color: #F5F5F6;*/
     background-color: #83ADA9; 
 }
 .sample {
@@ -365,8 +364,7 @@ header {
 }
 .edu_all {
     margin: auto;
-    border-radius: 5px;
-/*    background-color: #F5F5F6;*/
+    border-radius: 5px
     background-color: #82ada9;
     color: #e5ffff;
     padding-top: 30px;
@@ -374,7 +372,7 @@ header {
     margin-top: 30px;
 }
 .education_1 {
-/*    background-color: #F5F5F6;*/
+
      background-color: #82ada9;
     color: #fefefe;
     line-height: 35px;
@@ -401,7 +399,6 @@ header {
 }
 .uniwersytet_title, .bootcamp_title {
     color: #607d8b;
-/*    background-color: #F5F5F6;*/
     background-color: #e5ffff;
     display: flex;
     justify-content: center;
@@ -427,7 +424,6 @@ header {
     order: 2;
 }
 .uniwersytet_body, .bootcamp_body {
-/*    border: 1px red solid;*/
     color: #e5ffff;
     margin-top: 30px;
     max-width: 290px;
@@ -450,7 +446,6 @@ header {
     letter-spacing: 2px;
     margin-top: 30px;
     color: #CA4246;
-
     background-image: linear-gradient(
         45deg,
         #e5ffff 16.666%, 
@@ -464,7 +459,7 @@ header {
         #bbdefb 83.333%, 
         #8aacc8 83.333%);
     
-     background-size: 100%;
+    background-size: 100%;
     background-repeat: repeat;
     
     animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
@@ -517,7 +512,6 @@ header {
     min-height: 1000px;
     background-color: #eeeeee;
     border: 1px  #eeeeee solid;
-/*    color: #204236; */
     font-size: 60px; 
     font-weight:900; 
     letter-spacing: 0.2px;
@@ -572,8 +566,6 @@ header {
     font-size:20px;
     padding:10px;
     color:#000a12;
-  
-/*    background-color: #2d4059;*/
 }
 .soft {
     font-size:17px;
@@ -597,7 +589,6 @@ ul {
     font-size:20px;
     color:#000a12;
     
- 
 }
 .so:hover {
     background-color: #3e92a3;
@@ -730,7 +721,6 @@ footer {
 
 
 /*RESPONSIVE*/
-
 /*iPad Pro horizontal*/
 @media (min-width: 1360px)  and (max-width: 1366px) {
     .about_container {
@@ -827,7 +817,6 @@ footer {
         margin-top: 150px;
         margin-bottom: 150px;
     }
-   
 }
 
 
@@ -838,7 +827,6 @@ footer {
         flex-direction: column;
     
     }
-
     
     .education_2 {
         flex-direction: column-reverse;
@@ -851,8 +839,7 @@ footer {
         margin-top: 30px;
     }
 }
-
-/*iPad*/
+/*Tablet*/
 @media (min-width: 767px) and (max-width:770px) {
 
         .about_container, .container_education, .container_technologies, .container_about {
@@ -892,7 +879,7 @@ footer {
     }
 }
 
-/*iPhoneX vertical*/
+/*Phone vertical*/
 @media (max-width: 414px) {
     .about_container {
         min-height: 780px;
